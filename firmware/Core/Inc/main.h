@@ -58,19 +58,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define ChannelA_Pin GPIO_PIN_0
-#define ChannelA_GPIO_Port GPIOA
-#define ChannelA_EXTI_IRQn EXTI0_1_IRQn
-#define ChannelB_Pin GPIO_PIN_1
-#define ChannelB_GPIO_Port GPIOA
-#define ChannelB_EXTI_IRQn EXTI0_1_IRQn
-#define Button_Pin GPIO_PIN_4
+#define Chan_B_Pin GPIO_PIN_0
+#define Chan_B_GPIO_Port GPIOA
+#define Chan_A_Pin GPIO_PIN_1
+#define Chan_A_GPIO_Port GPIOA
+#define Button_Pin GPIO_PIN_2
 #define Button_GPIO_Port GPIOA
-#define Button_EXTI_IRQn EXTI4_15_IRQn
-#define IR_LED_Pin GPIO_PIN_9
-#define IR_LED_GPIO_Port GPIOA
-#define LED_Pin GPIO_PIN_10
-#define LED_GPIO_Port GPIOA
+#define LED_Pin GPIO_PIN_0
+#define LED_GPIO_Port GPIOB
+#define IR_LED_Pin GPIO_PIN_1
+#define IR_LED_GPIO_Port GPIOB
+#define VBUS_SENSE_Pin GPIO_PIN_10
+#define VBUS_SENSE_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
